@@ -46,6 +46,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alst123/command-session-delete.git"
+    "url": "git+https://github.com/alst123/dsh-session-delete.git"
   }
 }

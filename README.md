@@ -44,7 +44,7 @@ A **DeepSeek Harness (DSH)** plugin that adds a real **Delete Session** action t
 DSH 里打开 **插件 → 安装插件**，输入本仓库链接：
 
 ```
-https://github.com/alst123/command-session-delete
+https://github.com/alst123/dsh-session-delete
 ```
 
 安装完成后**重启 DSH** 即可生效（宿主半与前端半都要重启加载）。
@@ -53,7 +53,7 @@ https://github.com/alst123/command-session-delete
 
 ```powershell
 cd <任意位置>
-git clone https://github.com/alst123/command-session-delete.git
+git clone https://github.com/alst123/dsh-session-delete.git
 ```
 
 把目录放进插件目录后，在 DSH profile 的 `package.json` 里加依赖：
