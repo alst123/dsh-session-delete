@@ -1,0 +1,8 @@
+# command-session-delete bundle patch
+#
+# 本文件由 DSH 插件市场安装后自动应用：把插件宿主半插入 Loader。
+# client 半由 package.json 的 dsh.client 声明被发现，无需在此配置。
+
+- insert:
+    - id: command-session-delete
+      name: 'command-session-delete'
