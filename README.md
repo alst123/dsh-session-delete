@@ -1,8 +1,23 @@
 # command-session-delete
 
+**DSH 插件 · 右键删除会话 · 物理删除，不只是归档**
+
 给 **DeepSeek Harness (DSH)** 的会话列表加一个「**删除会话**」右键菜单，并支持命令删除。
 
 > **为什么需要它**：DSH 产品层对会话只提供「归档」（archive）——归档只是从列表隐藏，记录仍永久保留在磁盘上。工作区的「删除」也只移除分组、不碰会话。本插件补上真正需要的那个动作：**物理删除**。
+
+---
+
+## English
+
+A **DeepSeek Harness (DSH)** plugin that adds a real **Delete Session** action to the session context menu — DSH natively only offers *archive*, which hides a session but keeps it on disk forever.
+
+- Right-click any session → **删除会话 / Delete session** → confirmation dialog → physical deletion
+- Command form: `/session-delete <sessionId> [--force]`
+- No page reload after deletion; the sidebar row disappears immediately
+- Zero runtime dependencies; installable from this GitHub URL via **Plugins → Install plugin**
+
+**Keywords**: DeepSeek Harness, DSH plugin, dsh-plugin, delete session, remove conversation, session management, context menu, physical deletion, archive vs delete
 
 ---
 

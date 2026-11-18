@@ -1,7 +1,7 @@
 {
   "name": "command-session-delete",
   "version": "1.0.0",
-  "description": "DSH 插件：给会话列表加右键「删除会话」，物理删除会话记录（DSH 原生只支持归档）",
+  "description": "DSH 插件：会话列表右键「删除会话」，物理删除会话记录（DSH 原生只支持归档）。A DeepSeek Harness plugin adding real session deletion to the context menu.",
   "type": "module",
   "main": "./lib/index.js",
   "exports": {
@@ -18,9 +18,15 @@
   "keywords": [
     "dsh",
     "dsh-plugin",
+    "dsh-market",
     "deepseek-harness",
+    "deepseek",
     "session",
-    "delete"
+    "session-management",
+    "delete-session",
+    "conversation",
+    "context-menu",
+    "archive"
   ],
   "dsh": {
     "id": "command-session-delete",
